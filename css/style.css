@@ -2503,6 +2503,29 @@ section.gradient-bg:not([data-gradients]) {
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
 }
+
+@media screen and (max-width: 600px) {
+  #navbar .logo {
+    display: table;
+    height: 50px;
+    float: left;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+    position: relative;
+    z-index: 110;
+  }
+
+  #navbar .logo img {
+    margin-top: 7px;
+    max-height: 40px !important;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+    display: block;
+  }
+
+}
+
+
 #navbar .logo {
   display: table;
   height: 80px;
@@ -2790,15 +2813,18 @@ section.gradient-bg:not([data-gradients]) {
   .menu-extras .menu-item .header-socials > ul > li > a:hover {
     color: #ccc;
   }
+
   #navbar.stick {
     background-color: #fff;
     height: 100px;
     box-shadow: 5px 5px 15px 0 rgba(31, 31, 31, 0.07);
     top: 0;
   }
+
   #navbar.stick .logo {
     height: 60px;
   }
+
   #navbar.stick .logo .logo-light {
     opacity: 0;
     height: 0;
