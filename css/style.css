@@ -39,7 +39,7 @@
   min-width: 0;
 }
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Raleway', sans-serif;;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #787878;
@@ -50,6 +50,11 @@ body {
 body.boxed-layout {
   background-color: #f2f2f2;
 }
+
+.desktopfooter{
+  /* margin-left: 10px; */
+}
+
 @media only screen and (min-width: 992px) {
   body.left-navbar #wrapper {
     padding-left: 240px;
@@ -84,7 +89,7 @@ a:focus {
   text-decoration: none;
 }
 a.small-link {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 11px;
   letter-spacing: 0.05em;
   font-weight: 500;
@@ -4498,7 +4503,7 @@ section.section-skewed.section-bordered #home-slider:after {
   right: 0;
   bottom: 0;
   top: 0;
-  background-image: url('../images/dotted-map.png');
+  /* background-image: url('../images/dotted-map.png'); */
   background-size: contain;
   opacity: .8;
 }
