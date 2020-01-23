@@ -262,7 +262,7 @@ section {
   z-index: 10;
 }
 section + section {
-  border-top: 1px solid #eee;
+  /* border-top: 1px solid #eee; */
 }
 section.home-section + section {
   border-top: 0;
@@ -2754,7 +2754,7 @@ section.gradient-bg:not([data-gradients]) {
   float: left;
 }
 .menu-extras .menu-item > div {
-  border-left: 1px solid rgba(255, 255, 255, 0.2);
+  /* border-left: 1px solid rgba(255, 255, 255, 0.2); */
   position: relative;
 }
 .menu-extras .menu-item > div > a {
@@ -4038,7 +4038,7 @@ section.section-skewed.section-bordered #home-slider:after {
   Icon Boxes
 */
 .animated-icon {
-  width: 100px;
+  width: 200px;
 }
 .animated-icon:not(.gradient-icon, [data-custom-color]) svg,
 .animated-icon:not(.gradient-icon, [data-custom-color]) svg * {
@@ -4247,7 +4247,7 @@ section.section-skewed.section-bordered #home-slider:after {
   font-size: 16px;
 }
 .icon-box-side .animated-icon {
-  width: 50px;
+  width: 70px;
   position: absolute;
   left: 0;
 }
@@ -4331,7 +4331,7 @@ section.section-skewed.section-bordered #home-slider:after {
   text-align: left;
 }
 .counter-icon .animated-icon {
-  width: 40px;
+  width: 100px;
   display: inline-block;
 }
 .counter-icon i {
@@ -4342,7 +4342,7 @@ section.section-skewed.section-bordered #home-slider:after {
 }
 @media only screen and (min-width: 992px) {
   .counter-content {
-    border-right: 1px solid #e5e5e5;
+    /* border-right: 1px solid #e5e5e5; */
   }
 }
 .counter-content > h5 {
