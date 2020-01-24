@@ -42,7 +42,7 @@ body {
   font-family: 'Raleway', sans-serif;;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #787878;
+  color: #000000;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -53,6 +53,10 @@ body.boxed-layout {
 
 .desktopfooter{
   /* margin-left: 10px; */
+}
+
+.boldHover:hover {
+  color: #d4e157;
 }
 
 @media only screen and (min-width: 992px) {
@@ -815,7 +819,7 @@ section.page-title .bp-desktop({
 .parallax-section:not(.text-dark) .social-list > li > a,
 .gradient-bg .social-list > li > a,
 .colored-bg .social-list > li > a {
-  color: #fff;
+  color: #062158;
 }
 .dark-bg .minimal-tabs > li > a,
 .parallax-section:not(.text-dark) .minimal-tabs > li > a,
@@ -1846,7 +1850,7 @@ section.gradient-bg:not([data-gradients]) {
   display: block;
   font-size: 16px;
   width: 40px;
-  color: #929292;
+  color: #062158;
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
 }
