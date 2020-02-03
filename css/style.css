@@ -7933,3 +7933,7 @@ img.zoom-img {
 .preview-icon:hover i {
   color: #062158;
 }
+
+.info-image .animated-icon {
+  width: 100px;
+}
