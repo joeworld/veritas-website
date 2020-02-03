@@ -109,6 +109,9 @@ body.boxed-layout {
     margin-top: 70px; 
     font-size: 55px
   }
+  .info-image .animated-icon {
+    width: 80px;
+  }
   
   .header-text- {
     color: #fff; 
