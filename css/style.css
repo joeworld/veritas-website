@@ -88,6 +88,10 @@ body.boxed-layout {
   font-size: 55px;
 }
 
+.info-image .animated-icon {
+  width: 100px;
+}
+
 @media screen and (max-width: 950px){
   .header-background {
     background: url(../images/custom/house.JPG);
