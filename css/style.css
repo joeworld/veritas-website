@@ -79,13 +79,15 @@ body.boxed-layout {
 .header-text {
   color: #fff;
   margin-top: 150px; 
-  font-size: 55px
+  font-size: 55px;
+  font-family:'Raleway', sans-serif;
 }
 
 .header-text- {
   color: #fff; 
   margin-top: 150px; 
   font-size: 55px;
+  font-family:'Raleway', sans-serif;
 }
 
 .info-image .animated-icon {
