@@ -59,6 +59,66 @@ body.boxed-layout {
   color: #d4e157;
 }
 
+.header-background {
+  background: url(../images/custom/house.JPG);
+  height: 70vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 50px;
+
+  box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.4);
+}
+
+.header-background-2 {
+  background: url(../images/custom/img22.jpg);
+  height: 70vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.4);
+}
+.header-text {
+  color: #fff;
+  margin-top: 150px; 
+  font-size: 55px
+}
+
+.header-text- {
+  color: #fff; 
+  margin-top: 150px; 
+  font-size: 55px;
+}
+
+@media screen and (max-width: 950px){
+  .header-background {
+    background: url(../images/custom/house.JPG);
+    height: 70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:  -800px 0;
+  }
+
+  .header-background-2 {
+    background: url(../images/custom/img22.jpg);
+    height: 70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:  -300px 0;
+  }
+  .header-text {
+    color: #fff;
+    margin-top: 70px; 
+    font-size: 55px
+  }
+  
+  .header-text- {
+    color: #fff; 
+    margin-top: 70px; 
+    font-size: 55px;
+  }
+}
+
+
+
 @media only screen and (min-width: 992px) {
   body.left-navbar #wrapper {
     padding-left: 240px;
